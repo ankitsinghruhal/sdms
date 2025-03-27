@@ -1,4 +1,4 @@
-import com.application;
+package com.application;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -19,6 +19,6 @@ public class ContactUs
         welcomeScreen.add(welcomeMessage);
 
         LoginScreen.main(args);
-=pm         welcomeScreen.setVisible(true);
+        welcomeScreen.setVisible(true);
     }
 }
