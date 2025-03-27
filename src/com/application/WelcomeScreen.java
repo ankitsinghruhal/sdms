@@ -8,13 +8,13 @@ public class WelcomeScreen
 {
     public static void main(String[] args)
     {
-        JFrame welcomeScreen = new JFrame("CDMS");
+        JFrame welcomeScreen = new JFrame("SDMS");
         welcomeScreen.setSize(500,100);
         welcomeScreen.setResizable(false);
         welcomeScreen.setLocationRelativeTo(null);
         welcomeScreen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JLabel welcomeMessage = new JLabel("welcome to College Data management System.");
+        JLabel welcomeMessage = new JLabel("welcome to Student Data management System.");
         welcomeMessage.setHorizontalAlignment(JLabel.CENTER);
         welcomeMessage.setFont(new Font("Arial" , Font.PLAIN, 15));
         welcomeScreen.add(welcomeMessage);

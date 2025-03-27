@@ -12,7 +12,7 @@ public class LoginScreen
 {
     public static void main(String[] args)
     {
-        JFrame loginScreen = new JFrame("CDMS - Login");
+        JFrame loginScreen = new JFrame("SDMS - Login");
         loginScreen.setSize(800,500);
         loginScreen.setResizable(false);
         loginScreen.setLocationRelativeTo(null);

@@ -12,7 +12,7 @@ public class HomeScreen
 {
     public static void main(String[] args)
     {
-        JFrame homeScreen = new JFrame("CDMS - Home");
+        JFrame homeScreen = new JFrame("SDMS - Home");
         homeScreen.setSize(1500,800);
         homeScreen.setResizable(false);
         homeScreen.setLocationRelativeTo(null);
