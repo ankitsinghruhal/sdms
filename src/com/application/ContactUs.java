@@ -19,7 +19,6 @@ public class ContactUs
         welcomeScreen.add(welcomeMessage);
 
         LoginScreen.main(args);
-
-        welcomeScreen.setVisible(true);
+=pm         welcomeScreen.setVisible(true);
     }
 }
